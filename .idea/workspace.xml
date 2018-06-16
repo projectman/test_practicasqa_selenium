@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8e3b5a8-653d-4460-bb20-0559a9a9cfe6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/features/step_definitions/login.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/new-automation-practical.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/new-automation-practical.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/login.feature" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/login_steps.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/support/env.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/support/env.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,7 +18,7 @@
     <SUITE FILE_PATH="coverage/new_automation_practical@my_steps_authorisation.rcov" NAME="my_steps_authorisation Coverage Results" MODIFIED="1529012417518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/features/step_definitions" MODULE_NAME="new-automation-practical" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file leaf-file-name="env.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/support/env.rb">
           <provider selected="true" editor-type-id="text-editor">
@@ -37,8 +31,8 @@
       <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="75">
+              <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -46,8 +40,8 @@
       <file leaf-file-name="my_steps_authorisation.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="405">
+              <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -80,11 +74,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1457" />
     <option name="y" value="22" />
-    <option name="width" value="1439" />
-    <option name="height" value="878" />
+    <option name="width" value="1103" />
+    <option name="height" value="1418" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -129,6 +123,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -252,7 +247,7 @@
       <workItem from="1528925213997" duration="7253000" />
       <workItem from="1529081657974" duration="260000" />
       <workItem from="1529086076132" duration="8000" />
-      <workItem from="1529100694806" duration="6071000" />
+      <workItem from="1529100694806" duration="15670000" />
     </task>
     <servers />
   </component>
@@ -268,7 +263,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24524000" />
+    <option name="totallyTimeSpent" value="34123000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -280,18 +275,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="22" width="1439" height="878" extended-state="6" />
+    <frame x="1457" y="22" width="1103" height="1418" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.4745884" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4745884" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49967512" weight="0.3297362" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50097466" side_tool="true" weight="0.4736211" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49967512" weight="0.32853717" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49967512" weight="0.3275862" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49967512" weight="0.35083225" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49902534" visible="true" weight="0.5620999" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49902534" visible="true" weight="0.50492054" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -302,12 +297,64 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49967512" weight="0.35083225" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.4745884" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49967512" weight="0.3297362" />
+      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49902534" visible="true" weight="0.31573275" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49967512" weight="0.32853717" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50097466" side_tool="true" weight="0.4736211" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
@@ -400,13 +447,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/my_steps_authorisatin.rb" />
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/login.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -414,10 +454,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="50" lean-forward="true" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="405">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
