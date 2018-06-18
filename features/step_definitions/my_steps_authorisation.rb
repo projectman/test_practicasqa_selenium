@@ -28,8 +28,6 @@ end
 Then(/^I can download the page with text "([^"]*)"$/) do |head_text|
 
   @browser.find_element(xpath: "//a[text()='"+head_text+"']")
-  puts "Authorisation test #1 passed"
-
 
 end
 
@@ -44,6 +42,7 @@ end
 Then(/^I will see the page with Log\-in button$/) do
   # I can find the button "Login on authorisation page"
   @browser.find_element(xpath: "//input[@id='wp-submit']")
+  puts "Authorisation test #1 passed"
   @browser.quit
 end
 
@@ -72,7 +71,7 @@ Then(/^I will stay on the page with submit button$/) do
 end
 
 # 3. Testing right username and empty password
-Given(/^I open the brouser with authorisation page§$/) do
+Given(/^I open the brouser with authorisation page 3rd time$/) do
   @browser = Selenium::WebDriver.for :safari
   @browser.navigate.to url
   # Check that username field exists on page
@@ -91,5 +90,26 @@ end
 Then(/^I will see the note "([^"]*)"$/) do |warning|
   @browser.find_element(xpath: "//*[text()='"+warning+"']")
   puts "Authorisation test #3 passed"
+  @browser.quit
 end
 
+# 4. Testing empty username and right password
+Given(/^I open the brouser with authorisation page 4th time$/) do
+  @browser = Selenium::WebDriver.for :safari
+  @browser.navigate.to url
+  # Check that username field exists on page
+  @browser.find_element(xpath: username_path)
+  puts "title of the brouser Test #4: " + @browser.title
+end
+
+When(/^I input empty username "([^"]*)" and right password "([^"]*)"$/) do |user, pwrd|
+  @browser.find_element(xpath: username_path).send_keys user
+  @browser.find_element(xpath: pass_path).send_keys pwrd
+  @browser.find_element(xpath: button_path).click
+  sleep(4)
+end
+
+Then(/^I will see the note about username"([^"]*)"$/) do |warning|
+  @browser.find_element(xpath: "//*[text()='"+warning+"']")
+  puts "Authorisation test #4 passed"
+end

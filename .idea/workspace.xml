@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8e3b5a8-653d-4460-bb20-0559a9a9cfe6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/step_definitions/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb" afterDir="false" />
     </list>
@@ -32,8 +31,8 @@
       <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+            <state relative-caret-position="300">
+              <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -41,8 +40,8 @@
       <file leaf-file-name="my_steps_authorisation.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-117">
-              <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+            <state relative-caret-position="314">
+              <caret line="113" column="3" lean-forward="true" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
               <folding>
                 <element signature="e#382#602#0" />
                 <element signature="e#680#881#0" />
@@ -52,9 +51,9 @@
                 <element signature="e#1307#1526#0" />
                 <element signature="e#1601#1800#0" />
                 <element signature="e#1855#1974#0" />
-                <element signature="e#2135#2151#0" />
-                <element signature="e#2567#2766#0" />
-                <element signature="e#2974#2996#0" />
+                <element signature="e#2994#3010#0" />
+                <element signature="e#3084#3113#0" />
+                <element signature="e#3169#3191#0" />
               </folding>
             </state>
           </provider>
@@ -260,7 +259,7 @@
       <workItem from="1528925213997" duration="7253000" />
       <workItem from="1529081657974" duration="260000" />
       <workItem from="1529086076132" duration="8000" />
-      <workItem from="1529100694806" duration="26310000" />
+      <workItem from="1529100694806" duration="27672000" />
     </task>
     <servers />
   </component>
@@ -276,7 +275,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="44763000" />
+    <option name="totallyTimeSpent" value="46125000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -397,9 +396,9 @@
             <element signature="e#1307#1526#0" />
             <element signature="e#1601#1800#0" />
             <element signature="e#1855#1974#0" />
-            <element signature="e#2135#2151#0" />
-            <element signature="e#2567#2766#0" />
-            <element signature="e#2974#2996#0" />
+            <element signature="e#2994#3010#0" />
+            <element signature="e#3084#3113#0" />
+            <element signature="e#3169#3191#0" />
           </folding>
         </state>
       </provider>
@@ -482,15 +481,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/login.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="60" lean-forward="true" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        <state relative-caret-position="300">
+          <caret line="20" column="10" lean-forward="true" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-117">
-          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        <state relative-caret-position="314">
+          <caret line="113" column="3" lean-forward="true" selection-start-line="113" selection-start-column="3" selection-end-line="113" selection-end-column="3" />
           <folding>
             <element signature="e#382#602#0" />
             <element signature="e#680#881#0" />
@@ -500,9 +499,9 @@
             <element signature="e#1307#1526#0" />
             <element signature="e#1601#1800#0" />
             <element signature="e#1855#1974#0" />
-            <element signature="e#2135#2151#0" />
-            <element signature="e#2567#2766#0" />
-            <element signature="e#2974#2996#0" />
+            <element signature="e#2994#3010#0" />
+            <element signature="e#3084#3113#0" />
+            <element signature="e#3169#3191#0" />
           </folding>
         </state>
       </provider>

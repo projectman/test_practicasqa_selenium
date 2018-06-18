@@ -13,6 +13,11 @@ Feature: Authorisation page testing
     Then I will stay on the page with submit button
 
   Scenario: Athorisation will not be passed with right username empty password
-    Given I open the brouser with authorisation page§
+    Given I open the brouser with authorisation page 3rd time
     When I input right username "adnim" and empty password ""
     Then I will see the note ": The password field is empty."
+
+  Scenario: Athorisation will not be passed with empty username, right password
+    Given I open the brouser with authorisation page 4th time
+    When I input empty username "" and right password "admin"
+    Then I will see the note about username": The username field is empty."
