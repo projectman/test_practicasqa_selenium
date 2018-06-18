@@ -2,6 +2,8 @@ url = "http://old.practicalsqa.net"
 username_path = "//input[@id='user_login']"
 pass_path = "//input[@id='user_pass']"
 button_path = "//input[@id='wp-submit']"
+avatar_path = "//*[@id='recallbar']/div[2]/div[2]/a/img"
+exit_path = "//*[@id='recallbar']/div[2]/div[2]/div/div[2]/a/span"
 
 
 Given(/^I open the brouser with authorisation page$/) do
@@ -28,8 +30,22 @@ Then(/^I can download the page with text "([^"]*)"$/) do |head_text|
 
   @browser.find_element(xpath: "//a[text()='"+head_text+"']")
   puts "Authorisation test #1 passed"
-  @browser.quit
 
+
+end
+
+When(/^I can exit the account$/) do
+  # Exit account when push the link "Exit"
+  @browser.find_element(xpath: avatar_path).click
+  @browser.find_element(xpath: exit_path).click
+  sleep(5)
+
+end
+
+Then(/^I will see the page with Log\-in button$/) do
+  # I can find the button "Login on authorisation page"
+  @browser.find_element(xpath: "//input[@id='wp-submit']")
+  @browser.quit
 end
 
 
@@ -56,3 +72,5 @@ Then(/^I will stay on the page with submit button$/) do
   puts "Authorisation test #2 passed"
   @browser.quit
 end
+
+
