@@ -1,8 +1,9 @@
 Feature: Authorisation page testing
 
+  @login_right
   Scenario: Pass registration form when username and password are correct then log off
     Given I open the brouser with authorisation page
-    When I imput correct username "admin" and correct password "admin"
+    When I imput correct username "alfha" and correct password "alfa"
     Then I can download the page with text "Practical SQA"
     When I can exit the account
     Then I will see the page with Log-in button
@@ -14,10 +15,10 @@ Feature: Authorisation page testing
 
   Scenario: Athorisation will not be passed with right username empty password
     Given I open the brouser with authorisation page 3rd time
-    When I input right username "adnim" and empty password ""
+    When I input right username "alfha" and empty password ""
     Then I will see the note ": The password field is empty."
 
   Scenario: Athorisation will not be passed with empty username, right password
     Given I open the brouser with authorisation page 4th time
-    When I input empty username "" and right password "admin"
+    When I input empty username "" and right password "alfa"
     Then I will see the note about username": The username field is empty."

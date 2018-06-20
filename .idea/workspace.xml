@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8e3b5a8-653d-4460-bb20-0559a9a9cfe6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/features/step_definitions/ContactMe.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/ContactMe.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/ContactMe.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/features/step_definitions/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/login.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,8 +23,8 @@
       <file leaf-file-name="ContactMe.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/ContactMe.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state relative-caret-position="165">
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
@@ -33,8 +32,8 @@
       <file leaf-file-name="login.feature" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/login.feature">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+            <state relative-caret-position="345">
+              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -42,8 +41,8 @@
       <file leaf-file-name="my_steps_authorisation.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="43" />
+            <state relative-caret-position="261">
+              <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -51,8 +50,14 @@
       <file leaf-file-name="contact_me_steps.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+            <state relative-caret-position="198">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding>
+                <element signature="e#125#305#0" />
+                <element signature="e#705#1165#0" />
+                <element signature="e#705#1165#0" />
+                <element signature="e#917#1106#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -72,8 +77,8 @@
         <option value="$PROJECT_DIR$/features/step_definitions/my_steps_authorisatin.rb" />
         <option value="$PROJECT_DIR$/features/support/env.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/login.feature" />
-        <option value="$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/ContactMe.feature" />
+        <option value="$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb" />
       </list>
     </option>
@@ -88,10 +93,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="584" />
-    <option name="y" value="605" />
-    <option name="width" value="1370" />
-    <option name="height" value="716" />
+    <option name="x" value="752" />
+    <option name="y" value="138" />
+    <option name="width" value="1684" />
+    <option name="height" value="1183" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -256,7 +261,7 @@
       <workItem from="1529081657974" duration="260000" />
       <workItem from="1529086076132" duration="8000" />
       <workItem from="1529100694806" duration="31249000" />
-      <workItem from="1529456655192" duration="3627000" />
+      <workItem from="1529456655192" duration="10254000" />
     </task>
     <servers />
   </component>
@@ -272,11 +277,12 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53329000" />
+    <option name="totallyTimeSpent" value="59956000" />
   </component>
-  <component name="TodoView">
+  <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
+      <is-preview-enabled value="true" />
     </todo-panel>
     <todo-panel id="all">
       <are-packages-shown value="true" />
@@ -284,15 +290,15 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="584" y="605" width="1370" height="716" extended-state="0" />
+    <frame x="752" y="138" width="1684" height="1183" extended-state="0" />
     <layout>
-      <window_info active="true" anchor="bottom" id="TODO" order="6" sideWeight="0.49967512" visible="true" weight="0.32956383" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49967512" weight="0.32956383" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50097466" side_tool="true" weight="0.4736211" />
       <window_info anchor="bottom" id="Database Changes" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49967512" weight="0.35083225" />
       <window_info anchor="bottom" id="Version Control" order="9" sideWeight="0.49967512" weight="0.3275862" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49902534" weight="0.44588044" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29141566" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49902534" visible="true" weight="0.25414366" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23568818" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -341,15 +347,17 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb</url>
-          <line>21</line>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="9" />
+      <option name="time" value="14" />
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>Add test of button Menu - if it is then clik it but what is contact me text on that smal menu?</expression-string>
+        <language-id>ruby</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/features/support/env.rb">
@@ -476,31 +484,44 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.feature">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/features/step_definitions/ContactMe.feature">
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/cucumber-3.1.1/lib/cucumber/glue/registry_and_more.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="740">
+          <caret line="65" column="8" selection-start-line="65" selection-start-column="8" selection-end-line="65" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/login.feature">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="3" lean-forward="true" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="345">
+          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/ContactMe.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="43" lean-forward="true" selection-start-line="3" selection-end-line="3" selection-end-column="43" />
+        <state relative-caret-position="261">
+          <caret line="25" column="10" lean-forward="true" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="2" lean-forward="true" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="198">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="e#125#305#0" />
+            <element signature="e#705#1165#0" />
+            <element signature="e#705#1165#0" />
+            <element signature="e#917#1106#0" />
+          </folding>
         </state>
       </provider>
     </entry>
