@@ -1,3 +1,5 @@
+# path = File.join(File.dirname(__FILE__), "drivers/chromedriver"
+# 
 url = "http://old.practicalsqa.net"
 username_path = "//input[@id='user_login']"
 pass_path = "//input[@id='user_pass']"
