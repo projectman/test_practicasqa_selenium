@@ -1,3 +1,5 @@
+require 'test_class'
+
 url = "http://old.practicalsqa.net"
 username_path = "//input[@id='user_login']"
 pass_path = "//input[@id='user_pass']"
@@ -45,3 +47,6 @@ Then(/^I click button "([^"]*)"$/) do |post_comment|
   sleep(5)
 
 end
+
+
+

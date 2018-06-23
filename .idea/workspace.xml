@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c8e3b5a8-653d-4460-bb20-0559a9a9cfe6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/ContactMe.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/ContactMe.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/test_class.rb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/features/step_definitions/testing.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/features/step_definitions/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/features/step_definitions/login.feature" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,22 +48,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact_me_steps.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contact_me_steps.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+            <state relative-caret-position="528">
+              <caret line="51" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="e#125#305#0" />
+                <element signature="e#373#402#0" />
                 <element signature="e#705#1165#0" />
                 <element signature="e#705#1165#0" />
                 <element signature="e#917#1106#0" />
+                <element signature="e#1041#1063#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="testing.rb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/features/step_definitions/testing.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Ruby Class Template" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -79,7 +98,9 @@
         <option value="$PROJECT_DIR$/features/step_definitions/login.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/ContactMe.feature" />
         <option value="$PROJECT_DIR$/features/step_definitions/my_steps_authorisation.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/test_class.rb" />
         <option value="$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb" />
+        <option value="$PROJECT_DIR$/features/step_definitions/testing.rb" />
       </list>
     </option>
   </component>
@@ -93,10 +114,13 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="752" />
-    <option name="y" value="138" />
+    <option name="x" value="895" />
+    <option name="y" value="167" />
     <option name="width" value="1684" />
     <option name="height" value="1183" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -261,7 +285,7 @@
       <workItem from="1529081657974" duration="260000" />
       <workItem from="1529086076132" duration="8000" />
       <workItem from="1529100694806" duration="31249000" />
-      <workItem from="1529456655192" duration="10254000" />
+      <workItem from="1529456655192" duration="12967000" />
     </task>
     <servers />
   </component>
@@ -277,7 +301,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59956000" />
+    <option name="totallyTimeSpent" value="62669000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -290,7 +314,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="752" y="138" width="1684" height="1183" extended-state="0" />
+    <frame x="895" y="167" width="1684" height="1183" extended-state="0" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49967512" weight="0.32956383" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50097466" side_tool="true" weight="0.4736211" />
@@ -347,7 +371,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="14" />
+      <option name="time" value="16" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -514,14 +538,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/features/step_definitions/contact_me_steps.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        <state relative-caret-position="528">
+          <caret line="51" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="e#125#305#0" />
+            <element signature="e#373#402#0" />
             <element signature="e#705#1165#0" />
             <element signature="e#705#1165#0" />
             <element signature="e#917#1106#0" />
+            <element signature="e#1041#1063#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/test_class.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/features/step_definitions/testing.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="9" lean-forward="true" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
         </state>
       </provider>
     </entry>
